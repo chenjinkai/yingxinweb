@@ -1,0 +1,142 @@
+/*top-image*/
+.top-image-container {
+    background-color: #f6f6f5;
+}
+
+.margin-top {
+    padding-top: 15px;
+}
+
+.top-image {
+    width: 100%;
+    height: 136px;
+    background-color: #f6f6f5;
+}
+
+.visit-date-container {
+    height:32px;
+}
+
+.book-form {
+    border: 1px solid #ccc;
+    background-color: #EFEFEF;
+    padding: 15px;
+}
+
+.date-custom {
+    width:67%;
+    margin-left:29%;
+}
+.date-custom .form-control {
+    background-color:#fff;
+}
+
+.input-group-addon {
+    background-color:#fff;
+}
+
+.carousel-inner img {
+    height: 424px !important;
+}
+
+.page-header {
+    color: #00923f;
+}
+
+.service-row .service-img-grid {
+
+}
+
+.service-row img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .footer-band {
+    margin: 30px 0 30px 0;
+    padding: 30px 0 30px 0;
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.footer .beian {
+    margin-bottom: 30px;
+}
+
+.list-title {
+    color: #00923f;
+    margin-bottom: -10px;
+    margin-top: 30px;
+}
+
+.left-border {
+    border-left: 1px solid #e5e5e5;
+}
+
+/*服务项目*/
+.simple-border {
+    border: 1px solid #e5e5e5;
+    padding: 15px 15px;
+    margin-top: 15px;
+}
+
+.projects-detail {
+    margin-top: 25px;
+    /*background-color: #d9edf7;*/
+    line-height: 25px;
+    /*border-top: 1px solid #e5e5e5;*/
+    border-bottom: 1px dashed #e5e5e5;
+
+}
+
+.service-detail {
+    padding-top: 15px;
+}
+
+/*-------------------nav bar-------------------*/
+.navbar-custom {
+    background-color: #00923f;
+    border-color: #00923f;
+    font-size: 16px;
+}
+
+.navbar-custom a {
+    color: #fff;
+    font-family: "微软雅黑";
+}
+
+.navbar-custom .navbar-brand {
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    color: #fff;
+    background-color: #00b050;
+}
+
+.navbar-custom .navbar-text {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #00b050;
+}
+
+.navbar-custom .navbar-nav > .open > a,
+.navbar-custom .navbar-nav > .open > a:hover,
+.navbar-custom .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #00b050;
+}
+
+.navbar-custom .navbar-nav .dropdown .dropdown-menu {
+    background-color: #00b050;
+}
