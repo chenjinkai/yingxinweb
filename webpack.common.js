@@ -2,6 +2,7 @@ const path = require('path');
 const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 module.exports = {
     entry: {
@@ -15,7 +16,8 @@ module.exports = {
             template: './src/index.html',
             hash: true,
             chunks: ['index']
-        })
+        }),
+        new VueLoaderPlugin()
     ],
     module: {
         rules: [
@@ -39,7 +41,13 @@ module.exports = {
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/,
                 use: [
-                    'file-loader'
+                    {
+                        loader: 'file-loader',
+                        options: {
+                            publicPath: "fonts/",
+                            outputPath: "fonts/"
+                        }
+                    }
                 ]
             },
             {
@@ -62,6 +70,19 @@ module.exports = {
                 }, {
                     loader: 'expose-loader',
                     options: '$'
+                }]
+            },
+            {
+                test: /\.vue$/,
+                use: 'vue-loader'
+            },
+            {
+                test: /\.js$/,
+                use: [{
+                    loader: 'babel-loader',
+                    options: {
+                        presets: ['es2015']
+                    }
                 }]
             }
         ]
