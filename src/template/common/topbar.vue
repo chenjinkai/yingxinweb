@@ -5,7 +5,7 @@
         <div class="container">
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">首页</a></li>
+                    <li class="active"><router-link to="/">首页</router-link></li>
                     <!--<li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                            aria-expanded="false">服务项目<span class="caret"></span></a>
@@ -16,7 +16,7 @@
                                                 <li><a href="#">地板整修</a></li>
                                             </ul>
                     </li>-->
-                    <li><a href="#">服务项目</a></li>
+                    <li><router-link to="/service">服务项目</router-link></li>
 
                     <li><a href="#">维修师傅</a></li>
                     <li><a href="#">施工案例</a></li>
@@ -34,16 +34,5 @@
 
 </style>
 <script>
-    import 'bootstrap/dist/css/bootstrap.min.css';
-    import '../../css/bootstrap-theme.min.css';
-    import '../../css/common.css';
-    import Vue from 'vue';
-    import VueRouter from 'vue-router';
-    export default{
-        data(){
-            return {
 
-            }
-        }
-    }
 </script>

@@ -1,6 +1,5 @@
-
-<div class="container" role="main">
-    <div class="row">
+<template>
+<!--    <div class="row">
         <div class="col-md-4">
             <div class="book-form">
                 <form class="form-horizontal">
@@ -59,16 +58,16 @@
             </div>
         </div>
         <div class="col-md-8 carousel-container">
-            <!-- 轮播图 -->
+            &lt;!&ndash; 轮播图 &ndash;&gt;
             <div id="imgCircle" class="carousel slide" data-ride="carousel" data-interval="3000">
-                <!-- 轮播（Carousel）指标 -->
+                &lt;!&ndash; 轮播（Carousel）指标 &ndash;&gt;
                 <ol class="carousel-indicators">
                     <li data-target="#imgCircle" data-slide-to="0" class="active"></li>
                     <li data-target="#imgCircle" data-slide-to="1"></li>
                     <li data-target="#imgCircle" data-slide-to="2"></li>
                     <li data-target="#imgCircle" data-slide-to="3"></li>
                 </ol>
-                <!-- 轮播（Carousel）项目 -->
+                &lt;!&ndash; 轮播（Carousel）项目 &ndash;&gt;
                 <div class="carousel-inner">
                     <div class="item active">
                         <img src="../images/carousel_1.png" alt="First slide">
@@ -83,7 +82,7 @@
                         <img src="../images/carousel_4.png" alt="Second slide">
                     </div>
                 </div>
-                <!-- 轮播（Carousel）导航：就是左右箭头，可省略 -->
+                &lt;!&ndash; 轮播（Carousel）导航：就是左右箭头，可省略 &ndash;&gt;
                 <a class="carousel-control left" href="#imgCircle"
                    data-slide="prev">‹
                 </a>
@@ -256,8 +255,7 @@
                 背景墙瓷砖铺贴 西安市未央区组装衣柜 浴霸不出热风 液压机维
             </div>
         </div>
-    </div>
+    </div>-->
 
-
-</div> <!-- /container -->
-
+index
+</template>
