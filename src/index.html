@@ -17,8 +17,24 @@
 <div id="topImage"></div>
 
 <div id="app" >
-    <div id="topBar"></div>
+   <!-- <div id="topBar"></div>-->
+        <nav class="navbar navbar-custom navbar-static-top">
 
+            <div class="container">
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><router-link to="/">首页</router-link></li>
+                        <li><router-link to="/service">服务项目</router-link></li>
+                        <li><a href="#">维修师傅</a></li>
+                        <li><a href="#">施工案例</a></li>
+                        <li><a href="#">预约记录</a></li>
+                        <li><a href="#">自营门店</a></li>
+                        <li><a href="#">公司介绍</a></li>
+                        <li><a href="#">联系方式</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
     <div class="container" role="main">
         <router-view></router-view>
     </div>

@@ -1,5 +1,5 @@
 <template>
-<!--    <div class="row">
+   <div class="row">
         <div class="col-md-4">
             <div class="book-form">
                 <form class="form-horizontal">
@@ -255,7 +255,5 @@
                 背景墙瓷砖铺贴 西安市未央区组装衣柜 浴霸不出热风 液压机维
             </div>
         </div>
-    </div>-->
-
-index
+    </div>
 </template>
