@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import TopImage from './template/common/topimg.vue';
+import TopBar from './template/common/topbar.vue';
 import Partner from './template/common/partner.vue';
 import Footer from './template/common/footer.vue';
 import Index from './template/index2.vue';
@@ -39,5 +40,8 @@ var router = new VueRouter({
 
 new Vue({
     el: "#app",
-    router: router
+    router: router,
+    components: {
+        topbar:TopBar
+    }
 });

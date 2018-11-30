@@ -7,15 +7,16 @@
         </div>
     </div>
 </template>
-<style>
+<style scoped>
 
 </style>
 <script>
     import topImagePath from '../../images/top_image.jpg'
-    export default{
-        data(){
+
+    export default {
+        data() {
             return {
-                src:topImagePath
+                src: topImagePath
             }
         }
     }
