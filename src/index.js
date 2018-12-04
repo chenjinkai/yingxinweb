@@ -46,6 +46,9 @@ var router = new VueRouter({
             meta: {
                 title: '服务项目'
             }
+        },
+        {
+            path: '*', redirect: '/'
         }
     ]
 });
