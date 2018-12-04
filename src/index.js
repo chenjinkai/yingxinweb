@@ -34,7 +34,8 @@ var router = new VueRouter({
     mode: "history",
     routes: [
         {path: '/', component: Index},
-        {path: '/service', component: Service}
+        {path: '/service', component: Service},
+        {path: '*', redirect: '/'}
     ]
 });
 
