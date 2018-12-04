@@ -33,15 +33,31 @@ new Vue({
 var router = new VueRouter({
     mode: "history",
     routes: [
-        {path: '/', component: Index},
-        {path: '/service', component: Service}
+        {
+            path: '/',
+            component: Index,
+            meta: {
+                title: '首页'
+            }
+        },
+        {
+            path: '/service',
+            component: Service,
+            meta: {
+                title: '服务项目'
+            }
+        }
     ]
+});
+
+router.beforeEach((to, from, next) => {
+    window.document.title = to.meta.title;
 });
 
 new Vue({
     el: "#app",
     router: router,
     components: {
-        topbar:TopBar
+        topbar: TopBar
     }
 });
