@@ -63,3 +63,14 @@
         </div>
     </div>
 </template>
+
+<script>
+   $.get("http://localhost:8089/getLatestAppointments", function (data, status) {
+       console.log(status);
+       if (status === "success") {
+
+       } else if(status === "error") {
+
+       }
+   });
+</script>

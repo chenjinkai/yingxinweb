@@ -1,3 +1,4 @@
+import 'jquery';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import TopImage from './template/common/topimg.vue';
@@ -6,7 +7,6 @@ import Partner from './template/common/partner.vue';
 import Footer from './template/common/footer.vue';
 import Index from './template/index2.vue';
 import Service from './template/service/service2.vue';
-import 'jquery';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
