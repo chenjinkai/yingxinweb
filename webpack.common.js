@@ -6,7 +6,8 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 module.exports = {
     entry: {
-        index: './src/index.js'
+        index: './src/index.js',
+        app: './src/app.js'
     },
     plugins: [
         new CleanWebpackPlugin(['dist']),
@@ -16,6 +17,13 @@ module.exports = {
             template: './src/index.html',
             hash: true,
             chunks: ['index']
+        }),
+        new HtmlWebpackPlugin({
+            title: '瀛鑫房屋局部装修官网',
+            filename: './app.html',
+            template: './src/app.html',
+            hash: true,
+            chunks: ['app']
         }),
         new VueLoaderPlugin()
     ],
