@@ -14,7 +14,7 @@
 }
 
 .visit-date-container {
-    height:32px;
+    height: 32px;
 }
 
 .book-form {
@@ -24,15 +24,16 @@
 }
 
 .date-custom {
-    width:67%;
-    margin-left:29%;
+    width: 67%;
+    margin-left: 29%;
 }
+
 .date-custom .form-control {
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .input-group-addon {
-    background-color:#fff;
+    background-color: #fff;
 }
 
 .carousel-inner img {
@@ -95,7 +96,7 @@
 }
 
 /*-------------------nav bar-------------------*/
-.navbar-custom {
+/*.navbar-custom {
     background-color: #00923f;
     border-color: #00923f;
     font-size: 16px;
@@ -139,4 +140,4 @@
 
 .navbar-custom .navbar-nav .dropdown .dropdown-menu {
     background-color: #00b050;
-}
+}*/
